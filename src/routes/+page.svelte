@@ -8,11 +8,11 @@
 </script>
 
 <div class="index">
-    <p>Resume : <a href="/about">about</a>.
-    <br><br>All personal projects : <a href="/projects">projects</a>.</p>
-    <p>Interests : data science, machine learning.</p>
-    <p>Source code for this site : <a href="{davidHamaoui}" target="_blank" rel="noreferrer">Github</a>.</p>
-    <p>For more info : {email}.</p>
+    <p>Resume : <a href="/about">about</a>
+    <br><br>All personal projects : <a href="/projects">projects</a></p>
+    <p>Interests : data science, machine learning</p>
+    <p>Source code for this site : <a href="{davidHamaoui}" target="_blank" rel="noreferrer">GitHub</a></p>
+    <p>For more info : {email}</p>
 </div>
 
 <style>

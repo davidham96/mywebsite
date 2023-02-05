@@ -28,6 +28,9 @@
             body .gist .gist-data .pl-s .pl-s1 {
             color: #a5c261
             }
+            a, .gist-meta {
+                display: none;
+            }
             </style>`;
                 });
 </script>

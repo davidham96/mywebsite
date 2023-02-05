@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300&family=Roboto+Mono:wght@100&display=swap');
 
 body {  
     background: #422d5d;
@@ -6,6 +6,13 @@ body {
 }
 h1,h2,h3,h4,a,p,li,ul,ol {
     color: #decff1;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: normal;
+    font-family: 'JetBrains Mono', monospace;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #8c7b9e;
+}
+a:hover {
+    color: #9e7b8c;
 }

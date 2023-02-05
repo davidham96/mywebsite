@@ -9,7 +9,7 @@
     <section id="davidHamaoui">
         <h1><a href="{davidHamaoui}" target="_blank" rel="noreferrer">David Hamaoui</a> : Feb 2023</h1>
         <p>Built my first website using online tutorials and SvelteKit.</p>
-        <Gist url=""></Gist>
+        <Gist url="https://gist.github.com/davidham96/97d8c176015404cca30922cdab00a6c4.js"></Gist>
     </section>
     <br><br>
     <section id="spaceInvaders">
