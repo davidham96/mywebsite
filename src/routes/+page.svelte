@@ -1,17 +1,17 @@
 <EyeCatcher></EyeCatcher>
 
 <script>
-    let davidHamaoui = "https://github.com/davidham96/logDavid/";
+    let website = "https://github.com/davidham96/mywebsite/";
     let email = "davidhamaoui@outlook.com";
-
     import EyeCatcher from "../lib/EyeCatcher.svelte";
 </script>
 
 <div class="index">
-    <p>Resume : <a href="/about">about</a>
-    <br><br>All personal projects : <a href="/projects">projects</a></p>
+    <p>Resume : <a href="/contact">contact</a></p>
+    <p>All personal projects : <a href="/projects">projects</a></p>
+    <p>Past hackathons : <a href="/hackathons">hackathons</a></p>
     <p>Interests : data science, machine learning</p>
-    <p>Source code for this site : <a href="{davidHamaoui}" target="_blank" rel="noreferrer">GitHub</a></p>
+    <p>Source code for this site : <a href="{website}" target="_blank" rel="noreferrer">GitHub</a></p>
     <p>For more info : {email}</p>
 </div>
 

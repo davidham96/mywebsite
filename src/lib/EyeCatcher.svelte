@@ -66,7 +66,7 @@ for (let i = 0; i < 200; i++) {
 
 setInterval(() => {
     ctx.fillStyle = "#422D5D";
-    ctx.fillRect(0, 0, WIDTH, HEIGHT);
+    ctx.clearRect(0, 0, WIDTH, HEIGHT);
     balls.forEach(ball => {
         ball.update();
         ball.draw(ctx, balls);

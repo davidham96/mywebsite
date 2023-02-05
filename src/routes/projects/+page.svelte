@@ -1,13 +1,12 @@
 <script>
     import Gist from "../../lib/Gist.svelte";
     let spaceInvaders = "https://github.com/davidham96/SpaceInvaders";
-    let davidHamaoui = "https://github.com/davidham96/logDavid";
+    let myWebsite = "https://github.com/davidham96/mywebsite";
 </script>
 
 <div class="projects">
-
-    <section id="davidHamaoui">
-        <h1><a href="{davidHamaoui}" target="_blank" rel="noreferrer">David Hamaoui</a> : Feb 2023</h1>
+    <section id="myWebsite">
+        <h1><a href="{myWebsite}" target="_blank" rel="noreferrer">My Website</a> : Feb 2023</h1>
         <p>Built my first website using online tutorials and SvelteKit.</p>
         <Gist url="https://gist.github.com/davidham96/97d8c176015404cca30922cdab00a6c4.js"></Gist>
     </section>

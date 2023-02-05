@@ -9,11 +9,12 @@
 
 <header>
     <nav>
-        <Title title="David Hamaoui | Contact & Info"/>
+        <Title title="David Hamaoui"/>
         <div class="links">
             <a href="/">Home</a>
-            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
             <a href="/projects">Projects</a>
+            <a href="/hackathons">Hackathons</a>
         </div>
     </nav>
 </header>

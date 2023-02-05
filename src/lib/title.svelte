@@ -1,5 +1,5 @@
 <script>
-    export let title = "David Hamaoui | Contact & Info";
+    export let title = "David Hamaoui";
 </script>
 
 <div class="title">
