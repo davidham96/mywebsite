@@ -1,4 +1,6 @@
-<!-- default layout page for every page -->
+<svelte:head>
+    <title>David Hamaoui</title>
+</svelte:head>
 
 <script>
     import Title from '$lib/title.svelte'
@@ -7,7 +9,7 @@
 
 <header>
     <nav>
-        <Title title="log(David)"/>
+        <Title title="David Hamaoui | Contact & Info"/>
         <div class="links">
             <a href="/">Home</a>
             <a href="/about">About</a>
@@ -17,7 +19,6 @@
 </header>
 
 <main>
-    <!-- page content-->
     <slot></slot>
 </main>
 
@@ -41,5 +42,6 @@
         align-items: center;
         max-width: 960px;
         margin: 0 auto;
+        font-size: 22px;
     }
 </style>

@@ -1,15 +1,10 @@
-<!-- about page -->
-
 <script>
 
 </script>
 
 <div class="about">
-    <a href="DavidHamaouiResume.pdf" target="_blank">Resume</a>
-    <p>U3 McGill Computer Science student (previously Physiology student, 2020-2022)
-         interested in programming, Weightlifting, playing music.</p>
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <iframe src="DavidHamaouiResume.pdf" width="60%" height="735px"></iframe>
+    <p><a href="DavidHamaouiResume.pdf" target="_blank">Resume</a></p>
+    <iframe src="DavidHamaouiResume.pdf" title="Resume" width="100%" height="1000px"></iframe>
 </div>
 
 <style>
@@ -17,5 +12,8 @@
         text-align: center;
         display: block;
         margin: 20px auto;
+    }
+    p {
+        font-size: 25px;
     }
 </style>

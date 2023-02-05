@@ -1,24 +1,29 @@
-<!-- home page -->
+<EyeCatcher></EyeCatcher>
 
 <script>
-    let logDavid = "https://github.com/davidham96/logDavid/";
-    let interests = " data science, machine learning, functional programming";
+    let davidHamaoui = "https://github.com/davidham96/logDavid/";
     let email = "davidhamaoui@outlook.com";
+
+    import EyeCatcher from "../lib/EyeCatcher.svelte";
 </script>
 
 <div class="index">
-    <p>Resume + info about me are in <a href="/about">about</a>.
-    Personal projects are in <a href="/projects">projects</a>.</p> <br>
-    <p>Current interests include {interests}.</p> <br>
-    <p>The code for this site is available on <a href="{logDavid}" target="_blank" rel="noreferrer">Github</a>.</p><br>
-    <p>For more information, contact me at {email}.</p>
+    <p>Resume : <a href="/about">about</a>.
+    <br><br>All personal projects : <a href="/projects">projects</a>.</p>
+    <p>Interests : data science, machine learning.</p>
+    <p>Source code for this site : <a href="{davidHamaoui}" target="_blank" rel="noreferrer">Github</a>.</p>
+    <p>For more info : {email}.</p>
 </div>
 
 <style>
     .index {
-        text-align: center;
+        text-align: right;
         display: block;
+        padding-left: 100px;
         margin: 20px auto;
+    }
+    p {
+        font-size: 25px;
     }
 </style>
  

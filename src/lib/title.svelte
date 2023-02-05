@@ -1,9 +1,8 @@
 <script>
-    export let title = "log(David)";
+    export let title = "David Hamaoui | Contact & Info";
 </script>
 
 <div class="title">
-    <!-- <img src="/logo.svg" alt="logo"> -->
     <h1>{title}</h1>
 </div>
 
@@ -12,6 +11,6 @@
         display: flex;
     }
     .title h1 {
-        margin-left: 10px
+        margin-left: 10px;
     }
 </style>
