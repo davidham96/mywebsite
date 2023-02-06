@@ -12,9 +12,9 @@
 
 <div class="projects">
     <div class="goto">
-        <p>goto <a href="#myWebsite" on:click={scrollTo('myWebsite')}>My Website</a></p>
-        <p>goto <a href="#eflow" on:click={scrollTo('eflow')}>EFlow</a></p>
-        <p>goto <a href="#spaceInvaders" on:click={scrollTo('spaceInvaders')}>Space Invaders</a></p>
+        <p>goto <a href="#myWebsite" on:click|preventDefault={() => scrollTo('myWebsite')}>My Website</a></p>
+        <p>goto <a href="#eflow" on:click|preventDefault={() => scrollTo('eflow')}>EFlow</a></p>
+        <p>goto <a href="#spaceInvaders" on:click|preventDefault={() => scrollTo('spaceInvaders')}>Space Invaders</a></p>
         <br>
     </div>
     <section id="myWebsite">

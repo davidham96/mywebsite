@@ -1,18 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300&family=Roboto+Mono:wght@100&display=swap');
 
-body {  
+body {
     background: #422d5d;
     margin: 0;
+    min-height: 100vh;
 }
-h1,h2,h3,h4,a,p,li,ul,ol {
+
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+li,
+ul,
+ol {
     color: #decff1;
     font-family: 'JetBrains Mono', monospace;
 }
+
 a {
     text-decoration: none;
     font-weight: bold;
     color: #8c7b9e;
 }
+
 a:hover {
     color: #9e7b8c;
 }

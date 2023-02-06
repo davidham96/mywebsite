@@ -25,6 +25,8 @@
     <slot></slot>
 </main>
 
+<footer><p>© 2023 David Hamaoui</p></footer>
+
 <style>
     header {
         text-align: center;
@@ -33,6 +35,8 @@
     main {
         max-width: 960px;
         margin: 20px auto;
+        height: 100%;
+        min-height: 85vh;
     }
     .links {
         margin-left: auto;
@@ -46,5 +50,14 @@
         max-width: 960px;
         margin: 0 auto;
         font-size: 22px;
+    }
+    footer {
+        text-align: center;
+        position: static;
+        float: bottom;
+        padding-bottom: 10px;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
     }
 </style>
