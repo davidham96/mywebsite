@@ -7,10 +7,9 @@
 </script>
 
 <div class="index">
-    <p>Resume : <a href="/contact">contact</a></p>
-    <p>All personal projects : <a href="/projects">projects</a></p>
-    <p>Past hackathons : <a href="/hackathons">hackathons</a></p>
-    <p>Interests : data science, machine learning</p>
+    <p>Resume + more info : <a href="/about">about</a></p>
+    <p>Personal projects + hackathons : <a href="/projects">projects</a></p>
+    <p>Interests : machine learning, AI</p>
     <p>Source code for this site : <a href="{website}" target="_blank" rel="noreferrer">GitHub</a></p>
     <p>For more info : {email}</p>
 </div>

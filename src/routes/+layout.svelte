@@ -2,9 +2,12 @@
     <title>David Hamaoui</title>
 </svelte:head>
 
+<EyeCatcher></EyeCatcher>
+
 <script>
     import Title from '$lib/title.svelte'
     import '../styles/global.css'
+    import EyeCatcher from "../lib/EyeCatcher.svelte";
 </script>
 
 <header>
@@ -12,9 +15,8 @@
         <Title title="David Hamaoui"/>
         <div class="links">
             <a href="/">Home</a>
-            <a href="/contact">Contact</a>
+            <a href="/about">About</a>
             <a href="/projects">Projects</a>
-            <a href="/hackathons">Hackathons</a>
         </div>
     </nav>
 </header>
