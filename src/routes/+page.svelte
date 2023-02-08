@@ -4,23 +4,20 @@
 </script>
 
 <div class="index">
-    <p>Resume + more info : <a href="/about">about</a></p>
-    <p>Personal projects + hackathons : <a href="/projects">projects</a></p>
+    <p>Resume : <a href="/about">about</a></p>
+    <p>Projects/hackathons : <a href="/projects">projects</a></p>
     <p>
-        Source code for this site : <a
-            href={website}
-            target="_blank"
-            rel="noreferrer">GitHub</a
+        Source code : <a href={website} target="_blank" rel="noreferrer"
+            >GitHub</a
         >
     </p>
-    <p>For more info : {email}</p>
+    <p>Contact : {email}</p>
 </div>
 
 <style>
     .index {
-        text-align: right;
+        text-align: center;
         display: block;
-        padding-left: 100px;
         margin: 20px auto;
     }
     p {

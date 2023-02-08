@@ -12,6 +12,7 @@
         ctx.lineWidth = 1;
         //const LINECOLOR = "#ffeb3b";
         const LINECOLOR = "#8c7b9e";
+        const ballCount = 0.1 * WIDTH;
 
         const MAX_DISTANCE = 150;
 
@@ -69,7 +70,7 @@
 
         let balls = [];
 
-        for (let i = 0; i < 300; i++) {
+        for (let i = 0; i < ballCount; i++) {
             balls.push(
                 new Ball(Math.random() * WIDTH, Math.random() * HEIGHT, 1)
             );
