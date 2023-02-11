@@ -55,6 +55,10 @@
         <Gist
             url="https://gist.github.com/davidham96/0c6ad19306ebf97416207d5313cf898c.js"
         />
+        <p>
+            Using an API key with OpenAI, model Davinci was used and built into
+            Gmail to generate emails given certain inputs (seen in prompt)
+        </p>
     </section>
     <br /><br />
     <section id="spaceInvaders">
@@ -67,6 +71,25 @@
         <Gist
             url="https://gist.github.com/davidham96/ffe6096aebf8d12e891a61d83124fe1a.js"
         />
+        <p>General game logic (mostly using pygame)</p>
+        <Gist
+            url="https://gist.github.com/davidham96/580ae182d3298b6b41b09123508e7b17.js"
+        />
+        <p>
+            Created a player class, which has an x/y, a bullet to shoot, a
+            speed, and bool that indicates if player is currently shooting
+        </p>
+        <Gist
+            url="https://gist.github.com/davidham96/29518fd4f2f3372bc61a334af1c2b9c4.js"
+        />
+        <p>
+            Logic for enemies in the game, mostly similar to player with some
+            differences
+        </p>
+        <Gist
+            url="https://gist.github.com/davidham96/9aa87c62778782e55476634132d4d06d.js"
+        />
+        <p>Logic for bullet (has a position, speed, dimensions)</p>
     </section>
 </div>
 

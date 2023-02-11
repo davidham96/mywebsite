@@ -1,18 +1,18 @@
+<script>
+    import Title from "$lib/title.svelte";
+    import "../styles/global.css";
+    import EyeCatcher from "../lib/EyeCatcher.svelte";
+</script>
+
 <svelte:head>
     <title>David Hamaoui</title>
 </svelte:head>
 
-<EyeCatcher></EyeCatcher>
-
-<script>
-    import Title from '$lib/title.svelte'
-    import '../styles/global.css'
-    import EyeCatcher from "../lib/EyeCatcher.svelte";
-</script>
+<EyeCatcher />
 
 <header>
     <nav>
-        <Title title="David Hamaoui"/>
+        <Title title="David Hamaoui" />
         <div class="links">
             <a href="/">Home</a>
             <a href="/about">About</a>
@@ -22,7 +22,7 @@
 </header>
 
 <main>
-    <slot></slot>
+    <slot />
 </main>
 
 <footer><p>© 2023 David Hamaoui</p></footer>
@@ -30,7 +30,7 @@
 <style>
     header {
         text-align: center;
-        background: rgba(0,0,0,0.1);
+        background: rgba(0, 0, 0, 0.1);
     }
     main {
         max-width: 960px;
