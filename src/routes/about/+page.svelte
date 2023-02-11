@@ -32,16 +32,18 @@
     <div id="more">
         <p>
             My first experience with programming was in 2018 with a very basic
-            intro to Python, however this didn't last as I was too focused on
-            getting into medical school. 3 years later, I realized medicine
-            wouldn't be for me, and came back to Python, as a full beginner once
-            more. After 2 years majoring in Physiology, I decided that
-            programming would suit me better, so I switched majors. My
-            goals/interests however haven't changed all that much; to help those
-            with mental health problems. Mental health plagues the maternal side
-            of family, and it's something I am willing to work hard towards to
-            alleviate. I am thus interested in the future use of programming to
-            try to solve issues such as depression, dementia, if ever possible.
+            intro to Python, however this didn't last long as I was focused on
+            getting better grades in hopes of going to medical school. After 2
+            years of majoring in Physiology with a high GPA, and achieving a
+            high score on the CASPer test, I realized that medical school would
+            not be for me. I decided that programming would suit me better, so I
+            switched majors and relearned basic programming concepts (mostly in
+            Python, Java). My interests however haven't changed all that much;
+            to help those with mental health problems. Mental health
+            unfortunately deeply affects the maternal side of family (notably
+            depression, dementia) and has even lead to loss of life in some
+            cases. I am thus interested in the future use of programming to try
+            to help alleviate such issues.
         </p>
     </div>
 </div>
