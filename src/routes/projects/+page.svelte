@@ -41,8 +41,16 @@
         </h1>
         <p>My first website using online tutorials and SvelteKit</p>
         <Gist
-            url="https://gist.github.com/davidham96/97d8c176015404cca30922cdab00a6c4.js"
+            url="https://gist.github.com/davidham96/a8d758f77536654b9c0376408a7d5a1e.js"
         />
+        <p>Created a general layout page for every page of the site</p>
+        <Gist
+            url="https://gist.github.com/davidham96/7c1fb163647043e50f12bb6b3b1c0b85.js"
+        />
+        <p>
+            Using Gist from GitHub, was able to insert GitHub code onto the
+            website
+        </p>
     </section>
     <br /><br />
     <section id="eflow">
