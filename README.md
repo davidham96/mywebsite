@@ -1,1 +1,2 @@
-Created webapp (URL: davidhamaoui.me) using SvelteKit
+Created webapp using SvelteKit
+[davidhamaoui.me](davidhamaoui.me)
